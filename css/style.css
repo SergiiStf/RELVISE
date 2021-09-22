@@ -515,15 +515,30 @@ body {
 .wrapper {
   min-height: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
-/* --------------------------------------------------- */
+/* ----------------------------------------- */
 ._conteiner {
   max-width: 1046px;
   padding: 0px 15px;
   margin: 0 auto;
   box-sizing: content-box;
 }
-/* ---------------------------------------------------- */
+
+._ibg {
+  position: relative;
+}
+
+._ibg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+/* ----------ШАПКА----------------------------- */
 .header {
   position: absolute;
   width: 100%;
@@ -598,4 +613,121 @@ body {
   .menu__link {
     font-size: 18px;
   }
+}
+
+/* -------PAGE-------------------------------- */
+.page {
+  flex: 1 1 auto;
+}
+
+.page__main-blok {
+}
+
+/* ----MAIN-BLOK------------------------------ */
+
+.main-blok {
+  position: relative;
+}
+.main-blok__conteiner {
+}
+
+.main-blok__body {
+  padding: 184px 0px 191px 0px;
+  position: relative;
+  z-index: 2;
+  max-width: 400px;
+}
+
+@media (max-width: 992px) {
+  .main-blok__body {
+    padding: 120px 0px 191px 0px;
+  }
+}
+
+.main-blok__body > *:not(:last-child) {
+  padding: 0px 0px 35px 0px;
+}
+
+.main-blok__title {
+  font-size: 58px;
+  line-height: calc(80 / 58 * 100%);
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+@media (max-width: 479px) {
+  .main-blok__title {
+    font-size: 40px;
+  }
+}
+
+.main-blok__text {
+  color: #737373;
+  font-size: 20px;
+  line-height: calc(30 / 20 * 100%);
+}
+.main-blok__butons {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px 0;
+}
+.main-blok__buton {
+  border-radius: 37px;
+  display: flex;
+  min-height: 48px;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 700;
+  text-align: center;
+  line-height: 150%;
+  padding: 5px 36px;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  margin: 10px 0;
+}
+
+@media (max-width: 479px) {
+  .main-blok__buton {
+    flex: 1 1 100%;
+  }
+}
+
+@media (min-width: 479px) {
+  .main-blok__buton:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.main-blok__buton_orange {
+  background: #ff7b47;
+  color: #ffffff;
+}
+.main-blok__buton_border {
+  color: #0d5c63;
+  border: 1px solid #0d5c63;
+}
+.main-blok__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 1300px) {
+  .main-blok__image img {
+    object-position: right;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-blok__image {
+    opacity: 0.5;
+  }
+}
+
+/* ------ПОДВАЛ--------------------------- */
+
+.footer {
 }
