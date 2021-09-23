@@ -622,6 +622,8 @@ body {
 
 .page__main-blok {
 }
+.page__services {
+}
 
 /* ----MAIN-BLOK------------------------------ */
 
@@ -725,6 +727,40 @@ body {
   .main-blok__image {
     opacity: 0.5;
   }
+}
+
+/* -------- SERVICE--------------------------- */
+
+.services {
+}
+
+.services__conteiner {
+}
+._conteiner {
+}
+.services__body {
+  display: flex;
+  margin: 0 -15px;
+}
+
+.services__column {
+  padding: 0 15px;
+  flex: 0 1 33.333%;
+}
+
+.services__item {
+  background-color: #ffffff;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  padding: 35px;
+}
+
+.item-service {
+}
+.item-service__icon {
+}
+.item-service__title {
+}
+.item-service__text {
 }
 
 /* ------ПОДВАЛ--------------------------- */
