@@ -637,6 +637,11 @@ body {
 }
 .page__whoweare {
 }
+.page__clients:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+.page__subscribe {
+}
 /* --------HEADER BLOK---------------------- */
 
 .header-blok {
@@ -1062,6 +1067,7 @@ body {
 /*---------WHOWEARE------------------------ */
 
 .whoweare {
+  background: #ffffff;
   padding: 100px 0px 100px 0px;
 }
 
@@ -1074,6 +1080,7 @@ body {
 
 .whoweare__body {
   display: flex;
+  align-items: flex-start;
 }
 
 .whoweare__video {
@@ -1094,6 +1101,7 @@ body {
   flex: 1 1 auto;
   padding: 20px 0 0 121px;
 }
+
 .content__title {
   font-weight: bold;
   font-size: 40px;
@@ -1117,8 +1125,10 @@ body {
 
 .whoweare__items {
 }
+
 .whoweare__item {
 }
+
 .whoweare__item:not(:last-child) {
   margin: 0 0 30px 0;
 }
@@ -1158,6 +1168,109 @@ body {
   /* зкритий текст .... */
 }
 
+@media (max-width: 1080px) {
+  .whoweare__content {
+    padding: 0px 0 0 50px;
+  }
+}
+
+@media (max-width: 950px) {
+  .whoweare {
+    padding: 50px 0px 50px 0px;
+  }
+  .whoweare__header {
+    margin: 0px 0px 30px 0px;
+  }
+  .whoweare__body {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+
+  .whoweare__content {
+    padding: 0px 0 0 0px;
+  }
+
+  .whoweare__video {
+    padding: 0px 0px 56.25% 0px;
+  }
+
+  .whoweare__video:not(:last-child) {
+    margin: 50px 0px 0px 0px;
+  }
+
+  .content__title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .whoweare {
+    padding: 20px 0px 50px 0px;
+  }
+  .whoweare__video:not(:last-child) {
+    margin: 30px 0px 0px 0px;
+  }
+  .whoweare__top:not(:last-child) {
+    margin: 0 0 30px 0;
+  }
+}
+
+/* -----------CLIENTS---------------------- */
+
+.clients {
+  padding: 50px 0;
+}
+
+@media (max-width: 767px) {
+  .clients {
+    padding: 30px 0;
+  }
+}
+
+.clients__conteiner {
+}
+
+.clients__items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.clients__item {
+  padding: 8px 15px;
+  flex: 0 1 16.6667%;
+  align-items: center;
+  min-width: 140px;
+}
+
+.clients__item img {
+  max-width: 100%;
+}
+
+/* ------SUBSCRIBE------------------------ */
+
+.subscribe {
+}
+.subscribe__conteiner {
+}
+
+.subscribe__body {
+  margin: 0px 30px;
+  display: flex;
+  padding: 50px 30px;
+  align-items: center;
+  background: #17213c;
+  border-radius: 2px;
+}
+.subscribe__title {
+  color: #ffffff;
+}
+.subscribe__form {
+}
+.subscribe__input {
+}
+.subscribe__button {
+}
 /* ------ПОДВАЛ--------------------------- */
 
 .footer {
