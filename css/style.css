@@ -642,6 +642,10 @@ body {
 }
 .page__subscribe {
 }
+.page__getintouch {
+}
+.page__contact {
+}
 /* --------HEADER BLOK---------------------- */
 
 .header-blok {
@@ -1353,7 +1357,222 @@ body {
     padding: 0 15px;
   }
 }
+/* ------GETINTOUCH---------------------- */
+
+.getintouch {
+  padding: 80px 0px 135px 0px;
+}
+.getintouch__conteiner {
+}
+
+.getintouch__header {
+  margin: 0px 0px 80px 0px;
+}
+
+.getintouch__items {
+  margin: 0 -15px;
+}
+
+.getintouch__item {
+  flex: 0 1 33.333%;
+}
+
+.item-getintouch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 50px 40px;
+}
+
+.item-getintouch_activ {
+  background-color: #252b42;
+  padding: 80px 40px;
+  color: white;
+}
+
+.item-getintouch_activ .item-getintouch__button {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.item-getintouch > *:not(:last-child) {
+  margin: 0px 0px 15px 0px;
+}
+
+.item-getintouch__icon {
+}
+
+.item-getintouch__emails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item-getintouch__email {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 16px;
+}
+
+.item-getintouch__email:hover {
+  text-decoration: underline;
+}
+.item-getintouch__label {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+}
+.item-getintouch__button {
+  border: 1px solid #ff7b47;
+  min-height: 44px;
+  text-decoration: none;
+  display: flex;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #ff7b47;
+  line-height: 142%;
+  padding: 5px 20px;
+  transition: all 0.3s ease 0s;
+  border-radius: 5px;
+}
+.item-getintouch__button:hover {
+  background-color: #ff7b47;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .getintouch__items {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .getintouch {
+    padding: 50px 0px;
+  }
+  .getintouch__header {
+    margin: 0px 0px 50px 0px;
+  }
+  .item-getintouch_activ {
+    padding: 50px 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .getintouch__header {
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+/* ------CONTACT--------------------------- */
+
+.content {
+  background: #fafafa;
+  padding: 42px 0px;
+}
+.contact__conteiner {
+}
+
+.contact__content {
+  padding: 0px 0px 20px 0px;
+}
+
+@media (min-width: 767px) {
+  .contact__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact__content {
+    padding: 0px 20px 0px 0px;
+  }
+}
+
+.contact__title {
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  font-size: 24px;
+  line-height: 133%;
+}
+
+.contact__title:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+
+.contact__text {
+  line-height: 143%;
+  color: #737373;
+}
+.contact__button {
+  display: flex;
+  background-color: #ff7b47;
+  border-radius: 5px;
+  min-height: 58px;
+  padding: 15px 40px;
+  transition: background-color 0.3s ease 0s;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contact__button:hover {
+  background-color: #8d320e;
+}
 /* ------ПОДВАЛ--------------------------- */
 
 .footer {
+}
+.footer__top {
+}
+.footer__main {
+}
+._conteiner {
+}
+.footer__column {
+}
+.footer__label {
+}
+.footer__menu {
+}
+.menu-footer {
+}
+.menu-footer__list {
+}
+.menu-footer__item {
+}
+.menu-footer__link {
+}
+.footer__contacts {
+}
+.contacts-footer {
+}
+.contacts-footer__item {
+}
+.contacts-footer__item_phone {
+}
+.contacts-footer__item_map {
+}
+.contacts-footer__item_email {
+}
+.footer__button {
+}
+.footer__conteiner {
+}
+.footer__copy {
+}
+.footer__social {
+}
+.social {
+}
+.social__item {
 }
