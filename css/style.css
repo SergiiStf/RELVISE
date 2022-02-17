@@ -1646,13 +1646,13 @@ body {
   margin: 0px 0px 10px 0px;
 }
 .contacts-footer__item_phone {
-  background: url(/img/svg/phonefooter.svg) 0 0 no-repeat;
+  background: url(img/svg/phonefooter.svg) 0 0 no-repeat;
 }
 .contacts-footer__item_map {
-  background: url(/img/svg/mapfooter.svg) 0 0 no-repeat;
+  background: url(img/svg/mapfooter.svg) 0 0 no-repeat;
 }
 .contacts-footer__item_email {
-  background: url(/img/svg/arowfooter.svg) 0 0 no-repeat;
+  background: url(img/svg/arowfooter.svg) 0 0 no-repeat;
 }
 .footer__button {
   padding: 25px 0;
